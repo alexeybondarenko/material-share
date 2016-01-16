@@ -30,5 +30,6 @@ Assign script to element
 
 - [x] add basic functional
 - [ ] add gulpfile fot build sass
-- [ ] add pretty example
+- [ ] add pretty example on gh-pages
 - [ ] add more social networks. (Google Plus, Whats App, Vkontake, etc)
+- [ ] configure bower.json. and publish to global bower registry
