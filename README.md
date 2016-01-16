@@ -6,6 +6,8 @@ Share button in material design style
 - Support (Facebook, Twitter, Linkedin)
 - All icons inside stylesheet
 
+![Material Share Preview](https://raw.githubusercontent.com/alexeybondarenko/material-share/resources/preview.gif)
+
 ## How to use
 
 Example of usage is on *index.html* file
