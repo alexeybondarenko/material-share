@@ -1,11 +1,10 @@
 # Material Share Button
 
+Share button in material design style
 
 - No JS dependencies (Vanila JS)
 - Support (Facebook, Twitter, Linkedin)
 - All icons inside stylesheet
-
-Share button in material design style
 
 ## How to use
 
