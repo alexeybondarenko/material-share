@@ -6,7 +6,7 @@ Share button in material design style
 
 Example of usage is on *index.html* file
 
-Add script and stylesheet files onto your page.
+Add script and stylesheet files to your page.
 
 ```
 <script type="text/javascript" src="./src/material-share.js"></script>
