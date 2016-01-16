@@ -4,6 +4,10 @@ Share button in material design style
 
 ## How to use
 
+Example of usage is on *index.html* file
+
+Add script and stylesheet files onto your page.
+
 ```
 <script type="text/javascript" src="./src/material-share.js"></script>
 <link rel="stylesheet" href="./src/material-share.css" media="screen" title="no title" charset="utf-8">
