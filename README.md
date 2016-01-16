@@ -1,5 +1,6 @@
 # Material Share Button
 
+
 - No JS dependencies (Vanila JS)
 - Support (Facebook, Twitter, Linkedin)
 - All icons inside stylesheet
@@ -21,13 +22,15 @@ Assign script to element
 
 ```
 <script type="text/javascript">
-    var share = new MaterialShare(document.querySelector('.share-button'), {
-      facebookId: 'facebookId',
-      twitterId: 'twitterId',
-      linkedinId: 'linkedinId'
-    });
+    var share = new MaterialShare(document.querySelector('.share-button'), {});
 </script>
 
+```
+
+## Using with jQuery
+
+```
+var $el = $('.social').materialShare({});
 ```
 
 ## TODO
