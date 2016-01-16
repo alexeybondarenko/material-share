@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <title>Material Share Button</title>
     <script type="text/javascript" src="./src/material-share.js"></script>
-    <link rel="stylesheet" href="/src/material-share.css" media="screen" title="no title" charset="utf-8">
-
-    <script type="text/javascript">
-      var share = new MaterialShare(document.querySelector('.share-button'));
-      console.log(share);
-    </script>
+    <link rel="stylesheet" href="./src/material-share.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <button type="button" name="button" class="share-button">Share</button>
+    <div>
+      <button type="button" name="button" class="share-button">Share</button>
+    </div>
+
+    <script type="text/javascript">
+      var share = new MaterialShare(document.querySelector('.share-button'), {
+        facebookId: 'facebookId',
+        twitterId: 'twitterId',
+        linkedinId: 'linkedinId'
+      });
+      console.log(share);
+    </script>
   </body>
 </html>
